@@ -2,7 +2,7 @@ import { User as RepoUser } from "../../../repository/app/schemas/user";
 import { ForRepoQuerying } from "../../ports/drivens";
 
 const userMock: RepoUser = {
-    id: '123123123',
+    id: '1',
     name: 'Jhon Doe',
     email: 'John@gmail.com'
 }

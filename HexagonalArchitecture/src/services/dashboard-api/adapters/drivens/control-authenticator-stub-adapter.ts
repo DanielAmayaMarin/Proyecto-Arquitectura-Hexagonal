@@ -2,8 +2,8 @@ import { AuthDetails, Permissions } from "../../app/shemas"
 import { ForControlAuthenticating } from "../../ports/drivens"
 
 const authDetailsMock: AuthDetails = {
-    token: '1234vsdsfdsf987',
-    refreshToken: '12321cascmmczc'
+    token: 'token',
+    refreshToken: 'refreshToken'
 }
 
 const permissionsMock: Permissions = {
