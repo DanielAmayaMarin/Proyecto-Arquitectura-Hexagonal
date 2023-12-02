@@ -15,9 +15,10 @@ export const {authenticatorProxyAdapter} = CompositionMock()
 
 const registerMock = {
     name: 'Jhon',
-    email: 'jhon@gmail.com'
+    email: 'jhon@gmail.com',
+    password: "password"
 }
 
 authenticatorProxyAdapter.login('daniel@gmail.com', '123456')
 
-authenticatorProxyAdapter.register(registerMock,"12345678")
+authenticatorProxyAdapter.register(registerMock)
