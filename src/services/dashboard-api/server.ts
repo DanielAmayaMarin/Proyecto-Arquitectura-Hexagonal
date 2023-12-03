@@ -9,7 +9,7 @@ const createContext = () => ({});
 const app = express()
 app.use(cors())
 app.use(
-    "http://localhost:4000/trpc",
+    "/trpc",
     trpcExpress.createExpressMiddleware({
         router: localTRPCCompose().appRouter,
         createContext,

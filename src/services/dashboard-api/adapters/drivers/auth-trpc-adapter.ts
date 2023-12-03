@@ -1,4 +1,4 @@
-import { AuthenticatedUserSchema, RegisterSchema } from '../../app';
+import { AuthenticatedUserSchema, RegisterSchema } from './../../app/shemas/user';
 import { DashbordApi } from './../../app/dashboard-api';
 import {initTRPC} from '@trpc/server'
 

@@ -1,5 +1,5 @@
 import { Repository } from "../../app/repository";
-import { ExternalUser, RepoUser, User } from "../../app/schemas";
+import { ExternalUser, User } from "../../app/schemas";
 import { ForManagingUser } from "../../ports/drivers";
 
 export class UserManagerProxy implements ForManagingUser{
